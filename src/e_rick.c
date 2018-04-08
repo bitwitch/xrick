@@ -209,7 +209,7 @@ e_rick_action2(void)
 		return;
 	}
 	if (control_status & CONTROL_LEFT) {  /* move left */
-		x = E_RICK_ENT.x - 2;
+		x = E_RICK_ENT.x - 4; /* DEFAULT 2, SHAW CHANGED TO 4 CUZ I IZ HACKER */
 		game_dir = LEFT;
 		if (x < 0) {  /* prev submap */
 			game_chsm = TRUE;
@@ -217,7 +217,7 @@ e_rick_action2(void)
 			return;
 		}
 	} else {  /* move right */
-		x = E_RICK_ENT.x + 2;
+		x = E_RICK_ENT.x + 4; /* DEFAULT 2, SHAW CHANGED TO 4 CUZ I IZ HACKER */
 		game_dir = RIGHT;
 		if (x >= 0xe8) {  /* next submap */
 			game_chsm = TRUE;

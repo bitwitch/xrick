@@ -571,7 +571,7 @@ init(void)
 
   E_RICK_STRST(0xff);
 
-  game_lives = 6;
+  game_lives = 12;
   game_bombs = 6;
   game_bullets = 6;
   game_score = 0;

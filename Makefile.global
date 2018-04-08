@@ -1,0 +1,6 @@
+ROOTDIR=/Users/shaw/Development/code/projects/xrick
+XOBJ=
+CFLAGS=-g -ansi -pedantic -Wall -W -O2 -I /Users/shaw/Development/code/projects/xrick/include -I/usr/local/include/SDL -D_GNU_SOURCE=1 -D_THREAD_SAFE
+LDFLAGS=-lz -L/usr/local/lib -lSDLmain -lSDL -Wl,-framework,Cocoa
+CC=gcc
+CPP=gcc -E
